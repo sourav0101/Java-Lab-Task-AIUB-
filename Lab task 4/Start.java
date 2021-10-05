@@ -1,8 +1,9 @@
 import java.lang.*; 
-public class Start{
-	public static void main(String args[])
-	{
-		    Book b = new Book(); 
+public class Start
+{
+    public static void main(String args[])
+    {
+	Book b = new Book(); 
     
         b.setIsbn("3-557-098-51");
         b.setBookTitle("Tulanahina");
