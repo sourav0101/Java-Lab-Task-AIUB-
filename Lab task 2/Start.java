@@ -9,10 +9,7 @@ public class Start
 	b.setisbn("978-3-16-148410-0");
 	b.setBookTitle("Meku Kahini");
 	b.setAuthorName("Muhammed Zafar Iqbal");
-	b.setPrice(370);
-	
-	 
-	
+	b.setPrice(370);	
 	
 	System.out.println("Isbn:"+b.getisbn()); 
 	System.out.println("Book title:"+b.getBookTitle()); 
@@ -26,12 +23,8 @@ public class Start
 	b.sellQuantity(5);          //Sell Quantity
 	System.out.println("AvailableQuantity[sell quantity method call]:"+b.getAvailableQuantity());
 	
-	
 	System.out.println("-----------------------------");
 	System.out.println("Calling showDetails() Method: ");
-	
-	//b.showDetails();
-	
 	System.out.println("-----------------------------");
 	
 	b1.setisbn("523-3-16-142310-1");
@@ -39,10 +32,6 @@ public class Start
 	b1.setAuthorName("Mohammad Jafar Iqbal");
 	b1.setPrice(250);
 	b1.setAvailableQuantity(43); 
-	
-	
-	
-	
 	b1.showDetails();
   }
  }
