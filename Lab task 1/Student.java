@@ -32,8 +32,6 @@ public class Student
 		return Cgpa; 
 	}
 	
-
-
 public static void main(String args[])
 {
 	Student t = new Student(); 
