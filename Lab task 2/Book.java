@@ -64,15 +64,6 @@ public class Book
 	  return availableQuantity;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
   public void addQuantity(int amount)
   {
 	  if (amount>0){
