@@ -3,8 +3,12 @@ public class Start
 {
     public static void main(String args[])
     {
-	Book b = new Book(); 
-    
+      /**
+          Create an array of the Book class. Assign objects
+          of the Book class in the array and
+          print the values of the objects from the array.
+      **/
+	Book b = new Book();
         b.setIsbn("3-557-098-51");
         b.setBookTitle("Tulanahina");
         b.setAuthorName("Syed Mujtaba Ali");
@@ -37,14 +41,8 @@ public class Start
             System.out.println("-----------------");
         }
 		
-	}
+    }
 }
 
 
-/**
 
-.Create an array of the Book class. Assign objects
-of the Book class in the array and
-print the values of the objects from the array.
-
-**/
