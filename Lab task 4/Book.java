@@ -6,8 +6,6 @@ public class Book
 	private String authorName; 
 	private double price; 
 	private int availableQuantity;
-	
-	
 	Book()
 	{
 		System.out.println("Constructor called"); 
@@ -33,17 +31,15 @@ public class Book
 	public String getAuthorName() {return authorName;}
 	public double getPrice() {return price;}
 	public int getAvailableQuantity(){return availableQuantity;}
-	
-	
-	
 	public void addQuantity(int amount)
 	{
-		if (amount>0){
+	   if (amount>0){
 			availableQuantity = availableQuantity+amount; 
 			//System.out.println("Done"); 
-	    }else {
+	    }
+	    else {
 		    System.out.println("Invalid"); 
-	      }
+	        }
 	}
 	
     public void sellQuantity(int amount)
@@ -57,8 +53,7 @@ public class Book
 	 {
 		//System.out.println("Invalid");
 	 }
-   }
-   
+    }
 	public void showDetails()
 	{
 		System.out.println("Isbn:"+isbn);
@@ -67,8 +62,6 @@ public class Book
         System.out.println("Price:"+price);
         System.out.println("Availablity quantity:"+availableQuantity);	
 		
-	}
-	
-	
+	}	
 }
 	
